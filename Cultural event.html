@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Evening Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            background-image: url('https://gumlet.assettype.com/thequint/2017-12/6493c17a-e231-4f87-9ad0-3b99665c2a32/1.jpg?auto=format%2Ccompress&w=640.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Scrollable Navigation Bar */
+        nav {
+            width: 100%;
+            background-color: #003d82;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 15px 0;
+            z-index: 100;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            min-width: max-content;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            color: #f1c40f;
+        }
+
+        .invitation-container {
+            background-color: #003d82;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 600px;
+            margin-top: 80px;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 5px solid white;
+        }
+
+        .heading-bar {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .event-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        h1, h2, .date-time, .venue {
+            color: white;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #003d82;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .rsvp-button:hover {
+            background-color: #003d82;
+            color: #ffffff;
+        }
+
+        .event-message {
+            font-size: 14px;
+            color: #f1c40f;
+            margin-top: 10px;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: #ffffff;
+            color: #003d82;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section a {
+            color: #f1c40f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Scrollable Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#more">More</a></li>
+        </ul>
+    </nav>
+
+    <div class="invitation-container">
+        <div class="heading-bar">Cultural Event of Mumbai</div>
+        
+        <img src="https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/local-samosal/media/media_files/2025/02/26/k32ISQNJRGMoz1Hnw8Tg.jpg" alt="Cultural Event" class="event-image">
+        
+        <h1>Cultural Evening 2025</h1>
+        <p class="date-time">Saturday, April 12, 2025 | 6:00 PM</p>
+        <p class="venue">Kala Manch, Mumbai</p>
+        <p class="description">
+            Join us for an enchanting evening of music, dance, and drama at our annual Cultural Evening. 
+            Experience mesmerizing performances by talented artists and immerse yourself in the rich tapestry of cultural expressions.
+        </p>
+        <a href="#" class="rsvp-button">Confirm Your Attendance</a>
+        <p class="event-message">Be a part of Mumbai’s most awaited cultural celebration and witness the vibrant traditions come alive!</p>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Cultural Evening 2025</h2>
+        <p>
+            Join us for an enchanting evening of music, dance, and drama at our annual Cultural Evening. 
+            Experience mesmerizing performances by talented artists and immerse yourself in the rich tapestry of cultural expressions.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:hdonshaikh134@gmail.com">hdonshaikh134@gmail.com</a></p>
+        <p>Phone: <a href="tel:0187637917">01876 37917</a></p>
+    </section>
+</body>
+</html>
